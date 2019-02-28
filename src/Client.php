@@ -30,7 +30,7 @@ class Client
      * @param $url 請示地址
      * @param $debug 測試開關
      */
-    public function __construct($url, $proxy, $debug = false)
+    public function __construct($url, $proxy = null, $debug = false)
     {
         // 服务器地址
         $this->url = $url;
