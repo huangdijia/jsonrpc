@@ -2,6 +2,8 @@
 
 namespace Huangdijia\JsonRpc;
 
+use Exception;
+
 class Client
 {
     const JSONRPC_VERSION = '2.0';
